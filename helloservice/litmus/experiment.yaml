@@ -18,7 +18,9 @@ spec:
       components:
         env:
         # cpu cores for stress
+        - name: CPU_LOAD
+          value: '100'
         - name: CPU_CORES
-          value: '1'
+          value: '0'
         - name: TOTAL_CHAOS_DURATION
           value: '60'
